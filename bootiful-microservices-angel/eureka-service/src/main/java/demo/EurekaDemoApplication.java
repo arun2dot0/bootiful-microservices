@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @EnableEurekaServer
 @SpringBootApplication
-public class DemoApplication {
+public class EurekaDemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(EurekaDemoApplication.class, args);
     }
 }
 
